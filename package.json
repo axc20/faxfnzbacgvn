@@ -14,7 +14,8 @@
     "build:bow": "yarn --cwd ./packages/bow build",
     "build": "yarn build:axe && yarn build:bow",
     "prepublish-pkgs": "yarn build",
-    "publish-pkgs": "node publish.mjs"
+    "publish-pkgs": "node publish.mjs",
+    "random": "node random.mjs"
   },
   "devDependencies": {
     "nanoid": "3.3.3"
