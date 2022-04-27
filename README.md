@@ -11,3 +11,4 @@ test test
 ---
 
 - https://github.com/marketplace/actions/npm-publish
+- https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
