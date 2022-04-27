@@ -1,0 +1,22 @@
+{
+  "name": "faxfnzbacgvn",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "^16.14",
+    "yarn": "^1.22"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:axe": "yarn --cwd ./packages/axe build",
+    "build:bow": "yarn --cwd ./packages/bow build",
+    "build": "yarn build:axe && yarn build:bow",
+    "prepublish-pkgs": "yarn build",
+    "publish-pkgs": "node publish.mjs"
+  },
+  "devDependencies": {
+    "nanoid": "3.3.3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "faxfnzbacgvn-axe",
+  "description": "a useless package",
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

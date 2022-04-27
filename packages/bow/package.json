@@ -1,0 +1,15 @@
+{
+  "name": "faxfnzbacgvn-bow",
+  "description": "another useless package",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "files": [
+    "index.cjs",
+    "index.mjs"
+  ],
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
